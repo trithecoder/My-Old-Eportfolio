@@ -1,0 +1,46 @@
+.main-body {
+  background-color: black;
+  margin-top: 1vw;
+  border-radius: 2.5vw;
+  padding: 1vw;
+  color: white;
+}
+
+.body-header {
+  font-size: 2vw;
+  display: flex;
+  justify-content: center;
+}
+
+.body-para {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2vw;
+  margin-top: -2.5vw;
+}
+
+.body-para-li {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2vw;
+}
+
+.body-para-icons {
+  display: flex;
+  margin-top: -1vw;
+  align-items: center;
+  justify-content: center;
+}
+
+#html-icon {
+  color: #d05025;
+}
+
+#css-icon {
+  color: #0c5de9;
+}
+
+#link-li {
+  text-decoration: none;
+  color: blue;
+}
