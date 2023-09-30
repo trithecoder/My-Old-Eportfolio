@@ -11,7 +11,7 @@
       src="https://kit.fontawesome.com/81485fa12e.js"
       crossorigin="anonymous"
     ></script>
-    <script src="java.js" async></script>
+    <script src="java.js" defer></script>
     <!-- STYLE LINKS-->
 
     <meta charset="UTF-8" />
@@ -25,7 +25,7 @@
     <!-- HEADER -->
 
     <header>
-      <div class="headerli__1">
+      <div class="headerli__1 hidden">
         <ol id="ol-header__1">
           <a id="headlinks__1" href="https://github.com/trithecoder">
             <i class="fa-brands fa-github"></i> GitHub
@@ -33,7 +33,7 @@
           <a id="headlinks__1" href="projects.html">
             <i class="fa-solid fa-laptop-code fa-beat"></i> Projects
           </a>
-          <a id="headlinks__1" href="aboutme.html">
+          <a id="headlinks__1" href="#about-me-sect">
             <i class="fa-solid fa-user-tie fa-beat"></i> About Me
           </a>
           <a id="headlinks__1" href="brand.html">
@@ -51,14 +51,15 @@
     <!-- MAIN BODY -->
 
     <section class="main-body">
+      <div class="hidden">
       <div class="body-header">
         <h1 id="body-tag-h1">Hello👋</h1>
         <h1 id="body-tag2-h1">, My name is Triyel</h1>
       </div>
-      <div class="body-para">
+      <div class="body-para" id="both-para-tags">
         <p>I am a Front End Developer and Shopify Website Builder</p>
       </div>
-      <div class="body-para-2">
+      <div class="body-para-2" id="both-para-tags">
         <p>I work in HTML, CSS, JavaScript & Shopify Liquid</p>
       </div>
       <div class="body-para-icons">
@@ -70,10 +71,45 @@
         </h2>
       </div>
       <div class="body-para-li">
-        <a id="link-li" href=""> My Projects </a>
+        <a id="link-li" href=""></a>
       </div>
-    </section>
+    </div>
 
-    <!-- MAIN BODY -->
+      <!-- MAIN BODY -->
+
+      <!-- MAIN BODY * ABOUT ME * -->
+
+      <section class="about-me hidden" id="about-me-sect">
+        <div class="about-me-header">
+          <h1>About Me</h1>
+        </div>
+        <div class="am-body-para">
+          <p>I am an 18 year old Front End Developer</p>
+        </div>
+        <div class="am-body-para_2">
+          <p>
+            I code in HTML, CSS, JavaScript and I'm curretly learning React!
+          </p>
+        </div>
+        <div class="am-body-para_3">
+          <p>
+            I make Shopify & WordPress Websites as well
+          </p>
+        </div>
+        <div class="body-para-icons">
+          <h2>
+            <i id="html-icon" class="fa-brands fa-html5"></i>
+            <i id="css-icon" class="fa-brands fa-css3 fa-beat fa-sm"></i>
+            <i id="shopify-icon" class="fa-brands fa-shopify"></i>
+            <i id="javascript-icon" class="fa-brands fa-square-js"></i>
+          </h2>
+        </div>
+        <div class="body-para-li">
+          <a id="link-li" href=""></a>
+        </div>
+      </section>
+
+      <!-- MAIN BODY * ABOUT ME * -->
+    </section>
   </body>
 </html>

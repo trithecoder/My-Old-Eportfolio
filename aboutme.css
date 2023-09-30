@@ -1,0 +1,28 @@
+.about-me {
+    padding: 15vw;
+}
+
+.about-me-header {
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+}
+
+.am-body-para {
+    display: flex;
+    margin-top: -2vw;
+    justify-content: center;
+    font-size: 1.5vw;
+}
+
+.am-body-para_2, .am-body-para_3 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5vw;
+}
+
+#am-body-para-tag {
+    margin-top: -1vw;
+    margin-right: 1vw;
+}
+

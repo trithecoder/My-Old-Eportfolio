@@ -77,3 +77,16 @@
 #body-tag2-h1 {
     margin-top: 2.8vw;
 }
+
+.hidden {
+  opacity: 0;
+  filter: blur(1px);
+  transform: translateY(-25%);
+  transition: all 1.7s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
