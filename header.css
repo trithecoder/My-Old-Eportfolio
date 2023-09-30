@@ -16,7 +16,7 @@ body {
 .headerli__1 {
     background-color: black;
     border-radius: 35px;
-    padding: 1vw;
+    padding: 1rem;
 }
 
 #ol-header__1 {
@@ -29,10 +29,12 @@ body {
 
 #headlinks__1 {
   text-decoration: none;
+  text-align: center;
   color: white;
   padding: 1vw;
   margin-left: 1em;
   transition: 0.7s;
+  overflow: auto;
 }
 
 #headlinks__1:hover {
