@@ -26,3 +26,14 @@
     margin-right: 1vw;
 }
 
+@media only screen and (max-width: 414px) {
+    .about-me-header {
+      font-size: 1.5rem;
+    }
+
+    .am-body-para, .am-body-para_2, .am-body-para_3 {
+        font-size: 1rem;
+    }
+    
+}
+

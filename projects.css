@@ -11,3 +11,14 @@
 .projects-body-para {
     
 }
+
+@media only screen and (max-width: 414px) {
+    .projects-header {
+      font-size: 1.5rem;
+    }
+
+    .project-sect {
+        padding: 35vw;
+    }
+    
+}

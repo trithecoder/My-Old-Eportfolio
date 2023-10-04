@@ -2,7 +2,7 @@
 .main-body {
   background-color: black;
   margin-top: 1vw;
-  border-radius: 2.5vw;
+  border-radius: 3vw;
   padding: 1vw;
   color: white;
 }
@@ -89,4 +89,19 @@
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
+}
+
+@media only screen and (max-width: 414px) {
+  .body-header {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .body-para-icons {
+    width: 100%;
+    font-size: 1rem;
+    margin-top: -1vw;
+    align-items: center;
+    justify-content: center;
+  }
 }
