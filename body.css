@@ -1,5 +1,5 @@
 
-.main-body {
+.main-body, #main-bodyid {
   background-color: black;
   margin-top: 1vw;
   border-radius: 3vw;

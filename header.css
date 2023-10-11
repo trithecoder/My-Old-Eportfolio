@@ -8,8 +8,8 @@
   width: 100%;
 }
 
-body {
-  background-color: hsla(240, 177%, 35%, 0.7);
+#body {
+  background-color: black;
 }
 
 /*  HEADER STYLES  */
@@ -20,6 +20,7 @@ body {
   padding: 1rem;
 }
 
+
 #ol-header__1 {
   display: flex;
   justify-content: right;
@@ -28,7 +29,7 @@ body {
   margin: 5px 0;
 }
 
-#headlinks__1 {
+#headlinks__1, #togglebut, #togglebut1 {
   text-decoration: none;
   text-align: center;
   color: white;
