@@ -20,16 +20,21 @@
   padding: 1rem;
 }
 
-
 #ol-header__1 {
   display: flex;
   justify-content: right;
   font-size: 1.5rem;
   padding: 0 0 0 5px;
   margin: 5px 0;
+  color: white;
 }
 
-#headlinks__1, #togglebut, #togglebut1 {
+#headlinks__1,
+#headlinks__2,
+#headlinks__3,
+#headlinks__4,
+#togglebut,
+#togglebut1 {
   text-decoration: none;
   text-align: center;
   color: white;
@@ -60,5 +65,4 @@
   #both-para-tags {
     font-size: 1rem;
   }
-  
 }

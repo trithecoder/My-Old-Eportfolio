@@ -1,4 +1,10 @@
 const headerlinks = document.getElementById('headlinks__1');
+const headerlinks2 = document.getElementById('headlinks__2');
+const headerlinks3 = document.getElementById('headlinks__3');
+const headerlinks4 = document.getElementById('headlinks__4');
+const headerlinks5 = document.getElementById('togglebut');
+const headerlinks6 = document.getElementById('togglebut1');
+
 const wavehand = document.getElementById('body-tag-h1');
 const paratags = document.getElementById('both-para-tags');
 const backchange = document.getElementById('body');
@@ -27,6 +33,11 @@ function changebgcolor() {
     mainbodd.style.color = ''
     mainheader.style.backgroundColor = ''
     headerlinks.style.color = ''
+    headerlinks2.style.color = ''
+    headerlinks3.style.color = ''
+    headerlinks4.style.color = ''
+    headerlinks5.style.color = ''
+    headerlinks6.style.color = ''
 }
 function resetbgcolor () {
     backchange.style.backgroundColor = 'white'
@@ -35,6 +46,11 @@ function resetbgcolor () {
     mainbodd.style.color = 'black'
     mainheader.style.backgroundColor = 'white'
     headerlinks.style.color = 'black'
+    headerlinks2.style.color = 'black'
+    headerlinks3.style.color = 'black'
+    headerlinks4.style.color = 'black'
+    headerlinks5.style.color = 'black'
+    headerlinks6.style.color = 'black'
 }
 
 function linkpop() {
