@@ -1,12 +1,14 @@
 const headerlinks = document.getElementById('headlinks__1');
-let wavehand = document.getElementById('body-tag-h1');
-let paratags = document.getElementById('both-para-tags');
-let backchange = document.getElementById('body');
-let buttontoggle = document.getElementById('togglebut');
-let buttontogglereset = document.getElementById('togglebut1')
-let projectcolor = document.getElementById('');
-let mainheader = document.getElementById('headerli')
-let mainbodd = document.getElementById('main-bodyid');
+const wavehand = document.getElementById('body-tag-h1');
+const paratags = document.getElementById('both-para-tags');
+const backchange = document.getElementById('body');
+const buttontoggle = document.getElementById('togglebut');
+const buttontogglereset = document.getElementById('togglebut1')
+const projectcolor = document.getElementById('');
+const mainheader = document.getElementById('headerli')
+const mainbodd = document.getElementById('main-bodyid');
+const linkhover = document.getElementById('linksymbol');
+const huddlelink = document.getElementById('huddle-link');
 
 function waveup() {
    wavehand.style.color = 'blue'
@@ -33,6 +35,16 @@ function resetbgcolor () {
     mainbodd.style.color = 'black'
     mainheader.style.backgroundColor = 'white'
     headerlinks.style.color = 'black'
+}
+
+function linkpop() {
+    huddlelink.style.opacity = '1'
+    huddlelink.style.transition = '1s'
+    huddlelink.style.transform = 'translateX(0)'
+}
+
+function resetlinkpop() {
+    huddlelink.style.opacity = '0'
 }
 
 const observer = new IntersectionObserver((entries) => {
@@ -71,3 +83,8 @@ wavehand.addEventListener('mouseout', resethand)
 
 buttontoggle.addEventListener('click', changebgcolor)
 buttontogglereset.addEventListener('click', resetbgcolor)
+
+
+//HUDDLE LINK EFFECTS
+linkhover.addEventListener('mouseover', linkpop)
+linkhover.addEventListener('mouseout', resetlinkpop)

@@ -8,8 +8,33 @@
     font-size: 3rem;
 }
 
-.projects-body-para {
-    
+#linksymbol {
+    margin-left: 0.3vw;
+}
+
+.huddle-languages{
+    font-size: 1.3vw;
+}
+
+#huddle-project {
+    width: 30vw;
+    height: 15vw;
+    filter: blur(3.5px);
+    transition: 0.5s;
+}
+
+#huddle-p-tag1 {
+    display: block;
+}
+
+#huddle-project:hover {
+    filter: blur(0px);
+}
+
+#huddle-link {
+    text-decoration: none;
+    color: hsl(257, 40%, 49%);
+    opacity: 0;
 }
 
 @media only screen and (max-width: 414px) {
