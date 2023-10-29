@@ -14,7 +14,9 @@ const projectcolor = document.getElementById('');
 const mainheader = document.getElementById('headerli')
 const mainbodd = document.getElementById('main-bodyid');
 const linkhover = document.getElementById('linksymbol');
+const linkhover2 = document.getElementById('linksymbol2')
 const huddlelink = document.getElementById('huddle-link');
+const netflixlink = document.getElementById('netflix-link')
 
 function waveup() {
    wavehand.style.color = 'blue'
@@ -63,6 +65,16 @@ function resetlinkpop() {
     huddlelink.style.opacity = '0'
 }
 
+function linkpop2() {
+    netflixlink.style.opacity = '1'
+    netflixlink.style.transition = '1s'
+    netflixlink.style.transform = 'translateX(0)'
+}
+
+function resetnetflixLink() {
+    netflixlink.style.opacity = '0'
+}
+
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         console.log(entry)
@@ -104,3 +116,7 @@ buttontogglereset.addEventListener('click', resetbgcolor)
 //HUDDLE LINK EFFECTS
 linkhover.addEventListener('mouseover', linkpop)
 linkhover.addEventListener('mouseout', resetlinkpop)
+
+//NETFLIX LINK EFFECTS
+linkhover2.addEventListener('mouseover', linkpop2)
+linkhover2.addEventListener('mouseout', resetnetflixLink)

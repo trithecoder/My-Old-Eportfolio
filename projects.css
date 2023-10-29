@@ -2,28 +2,33 @@
     padding: 15vw;
 }
 
+.project-imgs {
+    display: flex;
+    flex-direction: row;
+}
+
 .projects-header {
     display: flex;
     justify-content: center;
     font-size: 3rem;
 }
 
-#linksymbol {
+#linksymbol, #linksymbol2 {
     margin-left: 0.3vw;
 }
 
-.huddle-languages{
+.huddle-languages, .netflix-languages {
     font-size: 1.3vw;
 }
 
-#huddle-project {
+#huddle-project, #netflix-project {
     width: 30vw;
     height: 15vw;
     filter: blur(3.5px);
     transition: 0.5s;
 }
 
-#huddle-p-tag1 {
+#huddle-p-tag1, #netflix-p-tag-1 {
     display: block;
 }
 
@@ -31,7 +36,11 @@
     filter: blur(0px);
 }
 
-#huddle-link {
+#netflix-project:hover {
+    filter: blur(0px);
+}
+
+#huddle-link, #netflix-link {
     text-decoration: none;
     color: hsl(257, 40%, 49%);
     opacity: 0;
